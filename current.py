@@ -9,7 +9,7 @@ from docx2pdf import convert
 def generate_new_review():
 
 ## SCRAPE THE WEBSITE TO GET THE CODE OF THE WEBSITE ##
-    main_url = 'http://mikesflix.com'
+    main_url = '' # the url I scrape -- it's taken out for privacy
     request = requests.get(main_url)
     # had to change the encoding to work
     request.encoding = request.apparent_encoding
